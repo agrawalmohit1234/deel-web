@@ -1,0 +1,39 @@
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.highlighted {
+  background-color: crimson;
+  color: white;
+  border: 0.2rem solid black;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+.notHighlighted {
+  background-color: cadetblue;
+  color: white;
+  border: 0.2rem solid black;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+.allOption {
+  max-height: 8rem;
+  min-width: max-content;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.noMatch {
+  background-color: black;
+  color: white;
+  margin-top: 0.2rem;
+  padding: 0.1rem;
+  text-align: center;
+  border: 0.2rem solid crimson;
+}
