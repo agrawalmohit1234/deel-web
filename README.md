@@ -1,3 +1,5 @@
+## `This AutoComplete also follows Async Rule with Debounce feature without using third-party library based on Pure React and internal DOM feature.`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
